@@ -4,18 +4,17 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int sayı =78;
+        int sayi1=54;
+        int sayi2=112;
+        int sayi3=26;
+        int enBuyuk=sayi2;
 
-        if (sayı>21){
-            System.out.println("sayı 21 den buyuk");
-
+        if (enBuyuk<sayi1){
+           enBuyuk=sayi1;
         }
-        if (sayı==21){
-            System.out.println("sayı 21 e eşit");
+        if (enBuyuk<sayi3){
+            enBuyuk=sayi3;
         }
-        if (sayı<21){
-            System.out.println("sayı 21 den kucuktur");
-        }
-
+        System.out.println(enBuyuk);
     }
 }
