@@ -4,17 +4,28 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int sayi1=54;
-        int sayi2=112;
-        int sayi3=26;
-        int enBuyuk=sayi2;
+        char NOT = 'L';
 
-        if (enBuyuk<sayi1){
-           enBuyuk=sayi1;
+        switch (NOT) {
+            case 'A':
+                System.out.println("mükemmel : gectiniz ");
+                break;
+            case 'B':
+                System.out.println("cok iyi : gectiniz ");
+                break;
+            case 'C':
+                System.out.println("iyi : gectiniz");
+                break;
+            case 'D':
+                System.out.println("maalesef : kaldınız ");
+            break;
+            default:
+                System.out.println("gecersiz harf");
+
         }
-        if (enBuyuk<sayi3){
-            enBuyuk=sayi3;
-        }
-        System.out.println(enBuyuk);
+
+
+
+
     }
 }
